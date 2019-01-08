@@ -27,14 +27,14 @@
   },
   "RoleMapping": {
     "dataSource": "myDB",
-    "public": false,
+    "public": true,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
     "dataSource": "myDB",
-    "public": false
+    "public": true
   },
   "Worker": {
     "dataSource": "myDB",

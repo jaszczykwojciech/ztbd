@@ -2,8 +2,11 @@
 
 var loopback = require('loopback');
 var boot = require('loopback-boot');
+var bodyParser = require('body-parser');
+var path = require('path');
 
 var app = module.exports = loopback();
+
 
 app.start = function() {
   // start the web server
