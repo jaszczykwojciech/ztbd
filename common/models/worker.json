@@ -21,6 +21,11 @@
       "type": "hasOne",
       "model": "Contact",
       "foreignKey": "workerId"
+    },
+    "invoice": {
+      "type": "hasOne",
+      "model": "Invoice",
+      "foreignKey": "workerId"
     }
   },
   "acls": [],

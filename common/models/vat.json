@@ -16,7 +16,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "vats": {
+      "type": "hasOne",
+      "model": "Product",
+      "foreignKey": "vatId"
+    }
+  },
   "acls": [],
   "methods": {}
 }

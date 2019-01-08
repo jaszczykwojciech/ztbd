@@ -16,7 +16,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "products": {
+      "type": "hasOne",
+      "model": "Product",
+      "foreignKey": "OrderPositionId"
+    },
+    "orders": {
+      "type": "hasMany",
+      "model": "Order",
+      "foreignKey": "OrderPositionId"
+    }
+  },
   "acls": [],
   "methods": {}
 }

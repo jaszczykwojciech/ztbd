@@ -29,6 +29,16 @@
       "type": "hasOne",
       "model": "Worker",
       "foreignKey": "contactId"
+    },
+    "TaxPayer": {
+      "type": "hasOne",
+      "model": "TaxPayer",
+      "foreignKey": "contactId"
+    },
+    "Buyer": {
+      "type": "hasOne",
+      "model": "Buyer",
+      "foreignKey": "contactId"
     }
   },
   "acls": [],

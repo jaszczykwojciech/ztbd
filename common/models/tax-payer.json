@@ -7,7 +7,13 @@
   },
   "properties": {},
   "validations": [],
-  "relations": {},
+  "relations": {
+    "invoice": {
+      "type": "hasOne",
+      "model": "Invoice",
+      "foreignKey": "taxPayerId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
