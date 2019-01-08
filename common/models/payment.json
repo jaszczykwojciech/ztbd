@@ -1,0 +1,22 @@
+{
+  "name": "Payment",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "kind_of_payment": {
+      "type": "string",
+      "required": true
+    },
+    "deadline_of_payment": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

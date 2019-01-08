@@ -1,0 +1,36 @@
+{
+  "name": "Contact",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "company_name": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "surname": {
+      "type": "string"
+    },
+    "nip": {
+      "type": "number"
+    },
+    "regon": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "workers": {
+      "type": "hasOne",
+      "model": "Worker",
+      "foreignKey": "contactId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

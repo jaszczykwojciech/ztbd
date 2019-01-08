@@ -18,22 +18,66 @@
     "public": false
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "myDB",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "myDB",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "myDB",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "myDB",
     "public": false
+  },
+  "Worker": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "Address": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "Contact": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "TaxPayer": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "Buyer": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "Vat": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "Product": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "OrderPosition": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "Payment": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "Order": {
+    "dataSource": "myDB",
+    "public": true
+  },
+  "Invoice": {
+    "dataSource": "myDB",
+    "public": true
   }
 }

@@ -1,0 +1,22 @@
+{
+  "name": "Vat",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "vat_rate": {
+      "type": "number",
+      "required": true
+    },
+    "vat_amount": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
